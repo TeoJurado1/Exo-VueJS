@@ -1,0 +1,1 @@
+l exemple est la premiere image et ce que j ai fait la seconde, ne modifie rien de ce que j'ai fait, ameliore juste l UI avec daisyUI pour que ce soit plus propre
