@@ -7,6 +7,8 @@
   <router-link to="/exercice-text-interpolation" class="btn btn-ghost">Exercice Text Interpolation</router-link>
   <router-link to="/exercice-attribute-binding" class="btn btn-ghost">Exercice Attribute Binding</router-link>
   <router-link to="/exercice-event-binding" class="btn btn-ghost">Exercice Event Binding</router-link>
+  <router-link to="/exercice-dynamic-styling" class="btn btn-ghost">Exercice Dynamic Styling</router-link>
+  <router-link to="/tp-style-dynamic" class="btn btn-ghost">TP Style Dynamic</router-link>
 </div>
 </template>
 

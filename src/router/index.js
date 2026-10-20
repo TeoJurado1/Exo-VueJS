@@ -34,6 +34,18 @@ const router = createRouter({
         {
             path: '/exercice-event-binding',
             component: () => import('../views/exercices/ExerciceEventBinding.vue')
+        },
+        {
+            path: '/:pathMatch(.*)*',
+            component: () => import('../views/not-found.vue'),
+        },
+        {
+            path: '/exercice-dynamic-styling',
+            component: () => import('../views/exercices/ExerciceDynamicStyling.vue')
+        },
+        {
+            path: '/tp-style-dynamic',
+            component: () => import('../views/tp/tpStyleDynamic.vue')
         }
     ]
 })
