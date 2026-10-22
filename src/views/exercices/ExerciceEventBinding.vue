@@ -1,12 +1,21 @@
 <script setup>
-import { ref } from 'vue'
+import { ref, computed } from 'vue'
 const compteur = ref(0)
+const username = ref('')
 const incrementer = () => {
     compteur.value += 1000
 }
 const decrementer = () => {
     compteur.value -= 77
 }
+const afficherNameUser = computed(() => {
+    console.log("la fonction qui gère le name est déclenchée")
+    if (username.value === '') {
+        return "Online"
+    } else {
+        return "Offline"
+    }
+})
 </script>
 
 <template>
@@ -19,6 +28,7 @@ const decrementer = () => {
                 <span class="text-2xl font-bold">le nombre : {{ compteur }}</span>
                 <button @click.left="incrementer" class="btn btn-primary">+</button>
             </div>
+            <p>Nom d'utilisateur : {{ afficherNameUser }}</p>
         </div>
     </div>
 </template>

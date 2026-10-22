@@ -46,6 +46,30 @@ const router = createRouter({
         {
             path: '/tp-style-dynamic',
             component: () => import('../views/tp/tpStyleDynamic.vue')
+        },
+        {
+            path: '/exercice-liste-courses',
+            component: () => import('../views/exercices/ExerciceListeCourses.vue')
+        },
+        {
+            path: '/exercice-watcher',
+            component: () => import('../views/exercices/ExerciceWatcher.vue')
+        },
+        {
+            path: '/tp-watcher-computed',
+            component: () => import('../views/tp/tpWatcherComputed.vue')
+        },
+        {
+            path: '/exercice-lifecycle-api',
+            component: () => import('../views/exercices/ExerciceLifecycleAPI.vue')
+        },
+        {
+            path: '/tp-list-and-conditional-rendering',
+            component: () => import('../views/tp/tpListAndConditionalRendering.vue')
+        },
+        {
+            path: '/exercice-chart-js',
+            component: () => import('../views/exercices/ExerciceChartJs.vue')
         }
     ]
 })
